@@ -48,11 +48,6 @@ We can _wrap_ the `video` tag around multiple, separate `source` tags. A basic
 </video>
 ```
 
-<video>
-  <source src="https://s3.amazonaws.com/ironboard-learn/cat_video.mp4" type="video/mp4">
-  <source src="https://s3.amazonaws.com/ironboard-learn/cat_video.ogg" type="video/ogg">
-</video>
-
 <iframe width="420" height="315"
 src="https://s3.amazonaws.com/ironboard-learn/cat_video.mp4">
 </iframe>
