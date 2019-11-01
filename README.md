@@ -48,7 +48,9 @@ We can _wrap_ the `video` tag around multiple, separate `source` tags. A basic
 </video>
 ```
 
-![cat_video](https://s3.amazonaws.com/ironboard-learn/cat_video.mp4)
+<iframe width="420" height="315"
+src="https://s3.amazonaws.com/ironboard-learn/cat_video.mp4">
+</iframe>
 
 Why two sources? Compatibility! When HTML is rendered, the browser will try to
 load the first source. If it fails, it will _fall back_ to the second source.
