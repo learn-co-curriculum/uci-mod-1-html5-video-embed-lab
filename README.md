@@ -48,6 +48,11 @@ We can _wrap_ the `video` tag around multiple, separate `source` tags. A basic
 </video>
 ```
 
+<video>
+  <source src="https://s3.amazonaws.com/ironboard-learn/cat_video.mp4" type="video/mp4">
+  <source src="https://s3.amazonaws.com/ironboard-learn/cat_video.ogg" type="video/ogg">
+</video>
+
 Why two sources? Compatibility! When HTML is rendered, the browser will try to
 load the first source. If it fails, it will _fall back_ to the second source.
 
